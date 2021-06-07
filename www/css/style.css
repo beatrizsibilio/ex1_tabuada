@@ -1,0 +1,20 @@
+/**/
+*{
+  text-align: center;
+}
+#cabecalho{
+  background-color: #95F184;
+  border-bottom: solid #CCC 1px;
+}
+
+h3{
+  margin: 20px;
+}
+
+p{
+  margin-top: 20px;
+}
+
+#numero{
+  text-align: left;
+}
