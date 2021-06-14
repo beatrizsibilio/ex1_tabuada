@@ -12,10 +12,12 @@ $(document).on("click","#calcular", function(){
 
   mostrarTabuada = function(){
     var resultado, tabuada="";
+
     for(var a = 1; a <= num; a++){
       resultado = num * a;
       tabuada += num + " X "+ a+ " = " + resultado + "<br>";
     }
+    
     $("#resultado").html(tabuada);
     $("#resultado").css("border", "solid black 1px");
   }
