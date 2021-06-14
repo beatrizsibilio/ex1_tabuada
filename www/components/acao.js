@@ -7,7 +7,7 @@ $(document).on("click","#calcular", function(){
 
   valorInvalido = function(){
     $("#resultado").html("<b>Nenhum número foi selecionado!</b>");
-    $("#resultado").css("border", "0px");
+    $("#resultado").css("border", "none");
   }
 
   mostrarTabuada = function(){
@@ -17,7 +17,6 @@ $(document).on("click","#calcular", function(){
       tabuada += num + " X "+ a+ " = " + resultado + "<br>";
     }
     $("#resultado").html(tabuada);
-    $("#resultado").css("padding", "10px");
     $("#resultado").css("border", "solid black 1px");
   }
 

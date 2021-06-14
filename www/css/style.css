@@ -16,5 +16,10 @@ p{
 }
 
 #numero{
-  text-align: left;
+  text-align: left; 
+}
+
+#resultado{
+  padding: 10px;
+  margin-bottom: 20px;
 }
